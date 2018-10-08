@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="14dp">
+
+        <Button
+            android:gravity="left|center"
+            android:text="Alarm Activity"
+            android:id="@+id/btnAlarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="left|center"
+            android:text="Bluetooth Activity"
+            android:id="@+id/btnBluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="left|center"
+            android:text="Call and Phone Activity"
+            android:id="@+id/btnCallPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="left|center"
+            android:text="Text to Speech Activity"
+            android:id="@+id/btnTTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="left|center"
+            android:text="WiFi Activity"
+            android:id="@+id/btnWIFI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="left|center"
+            android:text="SMS Service Activity"
+            android:id="@+id/btnSMS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="left|center"
+            android:text="Camera Activity"
+            android:id="@+id/btnCamera"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="left|center"
+            android:text="Email Intent Activity"
+            android:id="@+id/btnEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="left|center"
+            android:text="Kirim URL Intent Browser Activity"
+            android:id="@+id/btnUrlBrowser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="left|center"
+            android:text="Audio Manager Service"
+            android:id="@+id/btnAudioManager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="left|center"
+            android:text="Vidio Recorder Activity"
+            android:id="@+id/btnVidioRecorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="left|center"
+            android:text="Audio Recorder Activity"
+            android:id="@+id/btnAudioRecorder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:gravity="left|center"
+            android:text="Speach to Text Activity"
+            android:id="@+id/btnSTT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#f4ebeb"
+            android:paddingTop="10dp"
+            android:paddingLeft="4dp"
+            android:text="Copyright 2018 Asep Septiadi. All right reserved."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>
